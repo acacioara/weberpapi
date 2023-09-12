@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HFDlb/HE7vH8IpI54GE0O6mIHK/AWrboD9c4eDsCkG6wbssL7hLLHtNeK5zTfl8eg8aCFjiFU6QSgn3xsbE51g==",
+  "dgSpecHash": "D0gQB+GrUHBUVs5CzrJk9GmFAX+r2Rzl/aSKVEcyOi+E8EriLektQedzt7FZd95rcAk+f4/uLfawkcWD6gnNcw==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\SistemaErpAPI\\SistemaErpAPI.csproj",
+  "projectFilePath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\SistemaErpAPI\\SistemaErpAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acaci\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\acaci\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

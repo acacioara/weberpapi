@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "igABNCrLWZzQTKzH4klf0uE/zTCyjdaXLI3qQl22eZdi+D2vDUtnQpdR5I1SXUxr9A6nNI0aDvLuhvH39L6+Vw==",
+  "dgSpecHash": "xPc0nj5A+y42mu6Wv/Vgj7XZKSavzewz+JFctd17JIWVS17KdDW2IqjJ6UCMVVjigIaMJQtEhdzf3W8HAAguLw==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\DatabaseContext\\DatabaseContext.csproj",
+  "projectFilePath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\DatabaseContext\\DatabaseContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acaci\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\acaci\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",

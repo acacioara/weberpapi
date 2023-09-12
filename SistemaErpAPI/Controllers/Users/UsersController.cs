@@ -1,4 +1,5 @@
 ﻿using DatabaseContext.Context;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Modelos.Users;
@@ -9,8 +10,9 @@ using System.Security.Cryptography;
 
 namespace SistemaErpAPI.Controllers.Users
 {
-    [Route("api/[controller]")]
+    [Route("api/users")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly ContextConfig _db;

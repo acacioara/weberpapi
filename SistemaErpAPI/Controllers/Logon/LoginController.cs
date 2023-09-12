@@ -10,7 +10,7 @@ using System.Security.Cryptography;
 
 namespace SistemaErpAPI.Controllers.Logon
 {
-    [Route("api/[controller]")]
+    [Route("api/login")]
     [ApiController]
     public class LoginController : ControllerBase
     {
@@ -39,7 +39,7 @@ namespace SistemaErpAPI.Controllers.Logon
                 return Ok(new { message = "Usuário autenticado com sucesso!", token = jwtTokenGenerete.GetToken(user) });
             }
             catch (Exception ex)
-            {
+                {
                 return BadRequest(new { message = "Usuário e/ou senha inválidos", innerException = ex.Message });
             }
         }

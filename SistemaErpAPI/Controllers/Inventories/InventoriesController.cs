@@ -8,7 +8,7 @@ using Models.Modelos.Inventories;
 
 namespace SistemaErpAPI.Controllers.Inventories
 {
-    [Route("api/[controller]")]
+    [Route("api/inventories")]
     [ApiController]
     [Authorize]
     public class InventoriesController : ControllerBase

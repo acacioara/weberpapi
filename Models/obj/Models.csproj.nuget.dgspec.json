@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj": {}
+    "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj": {
+    "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj",
+        "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\acaci\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\obj\\",
+        "outputPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acaci\\AppData\\Roaming\\NuGet\\NuGet.Config",

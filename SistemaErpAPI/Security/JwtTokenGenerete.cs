@@ -29,6 +29,7 @@ namespace SistemaErpAPI.Security
                 new Claim("Id", user.Id.ToString()),
                 new Claim("UserName", user.Name),
                 new Claim("Password", user.Password),
+                new Claim("Cate", user.Password),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key));

@@ -1,4 +1,5 @@
 ﻿using DatabaseContext.Context;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Modelos.Inventories;
@@ -7,8 +8,9 @@ using Models.Modelos.Inventories;
 
 namespace SistemaErpAPI.Controllers.Inventories
 {
-    [Route("api/[controller]")]
+    [Route("api/suppliers")]
     [ApiController]
+    [Authorize]
     public class SuppliersController : ControllerBase
     {
         private readonly ContextConfig _db;

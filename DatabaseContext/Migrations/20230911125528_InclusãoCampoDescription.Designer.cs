@@ -3,6 +3,7 @@ using System;
 using DatabaseContext.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DatabaseContext.Migrations
 {
     [DbContext(typeof(ContextConfig))]
-    partial class ContextConfigModelSnapshot : ModelSnapshot
+    [Migration("20230911125528_InclusãoCampoDescription")]
+    partial class InclusãoCampoDescription
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -171,11 +174,6 @@ namespace DatabaseContext.Migrations
                     b.Property<bool>("Able")
                         .HasColumnType("bool");
 
-                    b.Property<string>("BackgroundColor")
-                        .IsRequired()
-                        .HasMaxLength(7)
-                        .HasColumnType("varchar(7)");
-
                     b.Property<string>("Code")
                         .IsRequired()
                         .HasMaxLength(10)
@@ -186,17 +184,7 @@ namespace DatabaseContext.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
 
-                    b.Property<string>("FontColor")
-                        .IsRequired()
-                        .HasMaxLength(7)
-                        .HasColumnType("varchar(7)");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("Url")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");

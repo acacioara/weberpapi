@@ -8,7 +8,7 @@ using Models.Modelos.Modules;
 
 namespace SistemaErpAPI.Controllers.Modules
 {
-    [Route("api/[controller]")]
+    [Route("api/modules")]
     [ApiController]
     [Authorize]
     public class ModulesController : ControllerBase
@@ -71,6 +71,10 @@ namespace SistemaErpAPI.Controllers.Modules
                 moduleFinded.Name = module.Name;
                 moduleFinded.Able = module.Able;
                 moduleFinded.Code = module.Code;
+                moduleFinded.Description = module.Description;
+                moduleFinded.Url = module.Url;
+                moduleFinded.FontColor = module.FontColor;
+                moduleFinded.BackgroundColor = module.BackgroundColor;
 
                 _db.Modules.Update(moduleFinded);
                 await _db.SaveChangesAsync();

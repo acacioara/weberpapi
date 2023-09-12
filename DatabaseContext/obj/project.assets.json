@@ -1423,11 +1423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\DatabaseContext\\DatabaseContext.csproj",
+      "projectUniqueName": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\DatabaseContext\\DatabaseContext.csproj",
       "projectName": "DatabaseContext",
-      "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\DatabaseContext\\DatabaseContext.csproj",
+      "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\DatabaseContext\\DatabaseContext.csproj",
       "packagesPath": "C:\\Users\\acaci\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\DatabaseContext\\obj\\",
+      "outputPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\DatabaseContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1444,8 +1444,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj": {
-              "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\sistema-erp-back\\SistemaErpAPI\\Models\\Models.csproj"
+            "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj": {
+              "projectPath": "D:\\Workspace\\GitHubRepository\\SistemaERP\\weberpapi\\Models\\Models.csproj"
             }
           }
         }

@@ -7,7 +7,7 @@ using Models.Modelos.Inventories;
 
 namespace SistemaErpAPI.Controllers.Inventories
 {
-    [Route("api/[controller]")]
+    [Route("api/unity-types")]
     [ApiController]
     public class UnitTypesController : ControllerBase
     {
